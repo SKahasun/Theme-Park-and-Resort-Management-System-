@@ -32,7 +32,7 @@ DROP DATABASE TPRMS
 GO
 
 CREATE DATABASE TPRMS
-ON
+/*ON
 (
 	name = 'TPRMS_data',
 	filename = 'C:\Program Files\Microsoft SQL Server\MSSQL17.MSSQLSERVER\MSSQL\DATA\TPRMS_data.mdf',
@@ -48,7 +48,7 @@ LOG ON
 	maxsize = 50MB,
 	filegrowth = 10%
 )
-GO
+GO*/
 
 Use TPRMS
 GO
@@ -2008,3 +2008,4 @@ GO
 
 
 --================================================================================================================================
+
