@@ -1,5 +1,7 @@
 # Theme Park and Resort Management System (TPRMS)
 
+![SQL Server](https://img.shields.io/badge/Database-SQL%20Server-CC2927?style=flat&logo=microsoft-sql-server)
+
 **A comprehensive Enterprise Resource Planning (ERP) solution designed to streamline the complex operations of a modern entertainment complex.**
 
 ## 📋 Project Overview
