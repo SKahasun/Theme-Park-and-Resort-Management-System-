@@ -68,7 +68,7 @@
             
             =======================================  SECTION 01  ===========================================
             	       						  INSERT DATA INTO TABLES	
-            =======================================================================*========================*/
+            ===============================================================================================*/
 
 USE TPRMS
 GO
@@ -844,7 +844,7 @@ VALUES
 (14, 1, 'Olive Orchard', 'North Hill', 700.00, 'Olive', 'Olea europaea', 'Tree',
  '2010-03-01', 15, 'Autumn', 35.00, 2800.00, '2025-10-20', 'Loamy', 'Seasonal', 'Healthy', 102, 'Active',
  'Produces olives for oil', 'https://upload.wikimedia.org/wikipedia/commons/9/9f/Olive_tree.jpg'),
-(15, 1, 'Strawberry Patch', 'East Riverside', 300.00, 'Strawberry', 'Fragaria × ananassa', 'Shrub',
+(15, 1, 'Strawberry Patch', 'East Riverside', 300.00, 'Strawberry', 'Fragaria Ã— ananassa', 'Shrub',
  '2022-02-01', 3, 'Winter', 10.00, 1000.00, '2025-12-05', 'Sandy', 'Monthly', 'Healthy', 109, 'Active',
  'Winter strawberry harvest', 'https://upload.wikimedia.org/wikipedia/commons/3/3f/Strawberry_field.jpg'),
 (16, 1, 'Kiwi Garden', 'West Hill', 450.00, 'Kiwi', 'Actinidia deliciosa', 'Vine',
@@ -1146,7 +1146,7 @@ VALUES
 (16, 1, 1, 'Spring Wedding Fair', 'Wedding', 'Wedding expo and fair', '2025-03-01', '2025-03-02', 'Resort Garden', 1000, 1, 100.00, 'Scheduled'),
 (17, 1, 1, 'Cultural Concert', 'Concert', 'Traditional music concert', '2025-05-20', '2025-05-20', 'Cultural Stage', 3000, 1, 200.00, 'Scheduled'),
 (18, 1, 1, 'Summer Corporate Retreat', 'Corporate', 'Corporate team-building retreat', '2025-06-15', '2025-06-17', 'Resort Grounds', 400, 1, 1500.00, 'Scheduled'),
-(19, 1, 1, 'Children’s Festival', 'Festival', 'Festival for kids and families', '2025-08-10', '2025-08-11', 'Kids Zone', 3500, 1, 100.00, 'Scheduled'),
+(19, 1, 1, 'ChildrenÂ’s Festival', 'Festival', 'Festival for kids and families', '2025-08-10', '2025-08-11', 'Kids Zone', 3500, 1, 100.00, 'Scheduled'),
 (20, 1, 1, 'Autumn Seasonal Show', 'Seasonal Show', 'Autumn-themed performances', '2025-10-20', '2025-10-21', 'Central Plaza', 5000, 1, 200.00, 'Scheduled')
 GO
 
@@ -4666,6 +4666,7 @@ SELECT StockQuantity FROM Products WHERE ProductID = 17
 GO
 SELECT CurrentStockLevel FROM Shop WHERE ShopID = 1
 GO
+
 
 
 
